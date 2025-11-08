@@ -74,4 +74,73 @@ class ProductModel {
         return $products;
     }
 
+    public static function getByDistrict($district_id, $limit = -1) {
+        if (empty($district_id)) {
+            return [];
+        }
+
+        // Lấy thông tin term
+        $term = get_term($district_id, 'product_cat');
+        if (!$term || is_wp_error($term)) {
+            return [];
+        }
+
+        // Lấy slug của quận
+        $slug = $term->slug;
+
+        // Dùng lại logic từ getByCategorySlug
+        $args = [
+            'status'   => 'publish',
+            'limit'    => $limit,
+            'category' => [$slug],
+        ];
+
+        $products = wc_get_products($args);
+
+        // 🔹 Chuyển danh sách sản phẩm WooCommerce sang dạng mảng
+        return self::formatProducts($products);
+    }
+
+    protected static function formatProducts($products) {
+        $data = [];
+        foreach ($products as $p) {
+            if (!$p instanceof \WC_Product) continue;
+
+            $data[] = [
+                'id'        => $p->get_id(),
+                'name'      => $p->get_name(),
+                'price'     => wc_price($p->get_price()),
+                'link'      => $p->get_permalink(),
+                'thumbnail' => wp_get_attachment_image_url($p->get_image_id(), 'medium'),
+            ];
+        }
+        return $data;
+    }
+
+
+    function slideImages($post_id, $size = 'large') {
+        $urls = [];
+
+        // Lấy ảnh đại diện (featured)
+        $featured_id = get_post_thumbnail_id($post_id);
+        if ($featured_id) {
+            $urls[] = wp_get_attachment_image_url($featured_id, $size);
+        }
+
+        // Lấy gallery từ WooCommerce (_product_image_gallery)
+        $gallery_ids = get_post_meta($post_id, '_product_image_gallery', true);
+        if (!empty($gallery_ids)) {
+            $gallery_ids = explode(',', $gallery_ids);
+            $gallery_ids = array_map('intval', $gallery_ids);
+
+            foreach ($gallery_ids as $id) {
+                $url = wp_get_attachment_image_url($id, $size);
+                if ($url) {
+                    $urls[] = $url;
+                }
+            }
+        }
+
+        return $urls;
+    }
 }

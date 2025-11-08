@@ -65,7 +65,6 @@ class DevTungMVC {
     public function init_controllers() {
         $controllers = [
             \DevTung\MVC\Controllers\ProductController::class,
-            \DevTung\MVC\Controllers\ProductCategoryController::class,
             \DevTung\MVC\Controllers\ComponentController::class,
             \DevTung\MVC\Controllers\PostController::class
         ];
