@@ -1,3 +1,3 @@
 <?php 
-    echo do_shortcode('[dt_product_category_index]');
+    echo do_shortcode('[dt_product_index]');
 ?>

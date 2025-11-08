@@ -1,1 +1,1 @@
-<?php echo do_shortcode('[buildingRender callback="buildingDetail"]'); ?>
+<?php echo do_shortcode('[dt_product_detail]'); ?>
