@@ -1,0 +1,54 @@
+.BuildingSubmenu{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dee2e6;
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 30px;
+    column-gap: 10px;
+    box-shadow: 0 16px 32px rgba(34, 37, 49, 0.24);
+    border-radius: 5px;
+}
+
+#masthead ul.header-nav>li.menu-item>.sub-menu:has(.BuildingSubmenu){
+    background-color: unset;
+}
+
+.SubmenuTitle{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 22px;
+}
+
+.SubmenuTitleLink{
+    color: #666;
+    font-size: 18px;
+}
+
+.SubmenuTitleLink-Active{
+    color: black;
+    font-weight: 500;
+}
+
+.SubmenuTitleLink-Separate{
+    border-right: 1px solid #dee2e6;
+    padding-right: 20px;
+}
+
+.SubmenuGrid{
+    padding-top: 20px;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.SubmenuGrid-Three{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.SubmenuLink{
+    font-size: 14px;
+    color: #666;
+}

@@ -1,0 +1,14 @@
+# WordPress
+wp-config.php
+.htaccess
+wp-content/uploads/
+wp-content/cache/
+
+# System files
+*.log
+*.tmp
+
+# Backup files
+*.zip
+*.tar.gz
+*.rar

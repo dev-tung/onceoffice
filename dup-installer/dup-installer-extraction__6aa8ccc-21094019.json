@@ -1,0 +1,47 @@
+{
+    "CL_-=_-=": "DUP_Extraction",
+    "zip_filetime": "current",
+    "archive_action": "donothing",
+    "archive_engine": "ziparchivechunking",
+    "extractonStart": 1754194478.868335,
+    "chunkStart": 1754194479.00101,
+    "root_path": "\/home\/muneerjohosting\/public_html\/",
+    "archive_path": "\/home\/muneerjohosting\/public_html\/20250721_wonderlandvietnamvn_6aa8ccc5a610c3dc5212_20250721094019_archive.zip",
+    "ajax1_error_level": 32767,
+    "dawn_status": null,
+    "archive_offset": 5412,
+    "do_chunking": false,
+    "chunkedExtractionCompleted": false,
+    "num_files": 18140,
+    "sub_folder_archive": "",
+    "max_size_extract_at_a_time": 2097152,
+    "zip_arc_chunk_notice_no": -1,
+    "zip_arc_chunk_notice_change_last_time": 0,
+    "zip_arc_chunks_extract_rates": [
+        56591646.31903909
+    ],
+    "archive_items_count": 17534,
+    "filters": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Files\\Filters",
+        "files": [
+            "20250721_wonderlandvietnamvn_6aa8ccc5a610c3dc5212_20250721094019_installer-backup.php"
+        ],
+        "dirsWithoutChilds": [],
+        "dirs": [
+            "dup-installer"
+        ]
+    },
+    "removeFilters": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Files\\Filters",
+        "files": [
+            "\/home\/muneerjohosting\/public_html\/20250721_wonderlandvietnamvn_6aa8ccc5a610c3dc5212_20250721094019_installer-backup.php",
+            "\/home\/muneerjohosting\/public_html\/20250721_wonderlandvietnamvn_6aa8ccc5a610c3dc5212_20250721094019_archive.zip",
+            "\/home\/muneerjohosting\/public_html\/installer - 2025-07-21T164103.394.php",
+            "\/home\/muneerjohosting\/public_html\/dup-installer-bootlog__a42e1bf-21094019.txt"
+        ],
+        "dirsWithoutChilds": [],
+        "dirs": [
+            "\/home\/muneerjohosting\/public_html\/dup-installer"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "report": {
+        "pass": 0,
+        "chunk": 1,
+        "chunkPos": {
+            "l0": "final_report",
+            "l1": null,
+            "l2": null
+        },
+        "progress_perc": 100,
+        "scan_tables": 53,
+        "scan_rows": 5913,
+        "scan_cells": 48084,
+        "updt_tables": 9,
+        "updt_rows": 1253,
+        "updt_cells": 1444,
+        "errsql": [],
+        "errser": [],
+        "errkey": [],
+        "errsql_sum": 0,
+        "errser_sum": 0,
+        "errkey_sum": 0,
+        "profile_start": 1754194499.330421,
+        "profile_end": 1754194499.967361,
+        "time": "0.6369 sec.",
+        "err_all": 0,
+        "warn_all": 0,
+        "warnlist": []
+    },
+    "cTableParams": null,
+    "replaceData": [
+        {
+            "id": 0,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "path",
+            "search": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam",
+            "replace": "\/home\/muneerjohosting\/public_html"
+        },
+        {
+            "id": 1,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam",
+            "replace": "http:\/\/oneoffice.vn"
+        }
+    ]
+}

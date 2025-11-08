@@ -1,0 +1,1424 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 04:14:09
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 8.2.27                                |8.1.32
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.1.32 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/muneerjohosting/public_html"
+REQUEST URL_________: "http://oneoffice.vn"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://demo01.setupwebsite.org/wonderlandvietnam/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/muneerjohosting/public_html"
+URL_NEW_____________: "http://oneoffice.vn"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/muneerjohosting/public_html/20250721_wonderlandvietnamvn_[HASH]_20250721094019_archive.zip"
+ARCHIVE SIZE________: 329.05MB
+CREATED_____________: 2025-07-21 09:40:19
+WP VERSION__________: 6.2.6
+DUP VERSION_________: 1.5.13
+LICENSE_____________: Free version
+DB VERSION__________: 10.11.10
+DB FILE SIZE________: 9.39MB
+DB TABLES___________: 53
+DB ROWS_____________: 6170
+URL HOME____________: https://demo01.setupwebsite.org/wonderlandvietnam
+URL CORE____________: https://demo01.setupwebsite.org/wonderlandvietnam
+URL CONTENT_________: https://demo01.setupwebsite.org/wonderlandvietnam/wp-content
+URL UPLOAD__________: https://demo01.setupwebsite.org/wonderlandvietnam/wp-content/uploads
+URL PLUGINS_________: https://demo01.setupwebsite.org/wonderlandvietnam/wp-content/plugins
+URL MU PLUGINS______: https://demo01.setupwebsite.org/wonderlandvietnam/wp-content/mu-plugins
+URL THEMES__________: https://demo01.setupwebsite.org/wonderlandvietnam/wp-content/themes
+PATH HOME___________: /home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam
+PATH ABS____________: /home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam
+PATH WPCONFIG_______: /home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam
+PATH WPCONTENT______: /home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam/wp-content
+PATH UPLOADS________: /home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam/wp-content/uploads
+PATH PLUGINS________: /home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam/wp-content/plugins
+PATH MUPLUGINS______: /home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam/wp-content/mu-plugins
+PATH THEMES_________: /home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "demo01.setupwebsite.org/wonderlandvietnam/"
+
+PLUGINS
+PLUGIN [SLUG:better-font-awesome/better-font-awesome.php       ][ON:true ]  Better Font Awesome
+PLUGIN [SLUG:call-now-button/call-now-button.php               ][ON:true ]  Call Now Button
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:yikes-inc-easy-custom-woocommerce-product-tabs/yikes-inc-easy-custom-woocommerce-product-tabs.php][ON:true ]  Custom Product Tabs for WooCommerce
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:woo-permalink-manager/premmerce-url-manager.php   ][ON:true ]  Premmerce Permalink Manager for WooCommerce
+PLUGIN [SLUG:user-role-editor/user-role-editor.php             ][ON:true ]  User Role Editor
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:wordpress-seo/wp-seo.php                          ][ON:true ]  Yoast SEO
+
+********************************************************************************
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.36166]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.10238]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/muneerjohosting/public_html"
+--------------------------------------
+LOG-TIME[DELTA:   0.00676]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00000]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01142]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00711]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00056]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00132]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00023]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/muneerjohosting/public_html/dup-installer/classes/database/class.db.php:645] MSG: SELECT command denied to user 'muneerjohosting_wonderland'@'localhost' for table `mysql`.`user`
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'muneerjohosting_wonderland' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/muneerjohosting/public_html/dup-installer/classes/validation/class.validation.database.service.php[763]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/muneerjohosting/public_html/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/muneerjohosting/public_html/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/muneerjohosting/public_html/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/muneerjohosting/public_html/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/muneerjohosting/public_html/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/muneerjohosting/public_html/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/muneerjohosting/public_html/dup-installer/main.installer.php[60]
+
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.01183]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00050]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00127]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00105]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/muneerjohosting/public_html"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 04:14:39
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "wonderlandvietnam.vn"
+HOME URL NEW________: "http://oneoffice.vn"
+SITE URL NEW________: "http://oneoffice.vn"
+CONTENT URL NEW_____: "http://oneoffice.vn/wp-content"
+UPLOAD URL NEW______: "http://oneoffice.vn/wp-content/uploads"
+PLUGINS URL NEW_____: "http://oneoffice.vn/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://oneoffice.vn/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/muneerjohosting/public_html"
+SITE PATH NEW_______: "/home/muneerjohosting/public_html"
+CONTENT PATH NEW____: "/home/muneerjohosting/public_html/wp-content"
+UPLOAD PATH NEW_____: "/home/muneerjohosting/public_html/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/muneerjohosting/public_html/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/muneerjohosting/public_html/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/muneerjohosting/public_html/dup-installer"
+	FILE: "/home/muneerjohosting/public_html/20250721_wonderlandvietnamvn_[HASH]_20250721094019_installer-backup.php"
+	FILE: "/home/muneerjohosting/public_html/20250721_wonderlandvietnamvn_[HASH]_20250721094019_archive.zip"
+	FILE: "/home/muneerjohosting/public_html/installer - 2025-07-21T164103.394.php"
+	FILE: "/home/muneerjohosting/public_html/dup-installer-bootlog__a42e1bf-21094019.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20250721_wonderlandvietnamvn_[HASH]_20250721094019_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.1694 sec. - Files processed: 5,412 of 17,534
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5412
+--------------------------------------
+PATHS MAPPING : "/home/muneerjohosting/public_html"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 18140
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 04:14:51 - RUNTIME: 12.9849 sec. - Files processed: 17,534 of 17,534
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 tlq_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 04:14:51
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "tlq_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "tlq_actionscheduler_actions"_____________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: tlq_actionscheduler_actions]
+TABLE "tlq_actionscheduler_claims"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: tlq_actionscheduler_claims]
+TABLE "tlq_actionscheduler_groups"______________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: tlq_actionscheduler_groups]
+TABLE "tlq_actionscheduler_logs"________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: tlq_actionscheduler_logs]
+TABLE "tlq_commentmeta"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_commentmeta]
+TABLE "tlq_comments"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_comments]
+TABLE "tlq_duplicator_packages"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: tlq_duplicator_packages]
+TABLE "tlq_links"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_links]
+TABLE "tlq_options"_____________________________________[ROWS:     480] [EXTRACT|REPLACE] [INST NAME: tlq_options]
+TABLE "tlq_postmeta"____________________________________[ROWS:    2849] [EXTRACT|REPLACE] [INST NAME: tlq_postmeta]
+TABLE "tlq_posts"_______________________________________[ROWS:     573] [EXTRACT|REPLACE] [INST NAME: tlq_posts]
+TABLE "tlq_termmeta"____________________________________[ROWS:     308] [EXTRACT|REPLACE] [INST NAME: tlq_termmeta]
+TABLE "tlq_terms"_______________________________________[ROWS:     307] [EXTRACT|REPLACE] [INST NAME: tlq_terms]
+TABLE "tlq_term_relationships"__________________________[ROWS:     169] [EXTRACT|REPLACE] [INST NAME: tlq_term_relationships]
+TABLE "tlq_term_taxonomy"_______________________________[ROWS:     307] [EXTRACT|REPLACE] [INST NAME: tlq_term_taxonomy]
+TABLE "tlq_usermeta"____________________________________[ROWS:      71] [EXTRACT|REPLACE] [INST NAME: tlq_usermeta]
+TABLE "tlq_users"_______________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: tlq_users]
+TABLE "tlq_wc_admin_notes"______________________________[ROWS:      95] [EXTRACT|REPLACE] [INST NAME: tlq_wc_admin_notes]
+TABLE "tlq_wc_admin_note_actions"_______________________[ROWS:     127] [EXTRACT|REPLACE] [INST NAME: tlq_wc_admin_note_actions]
+TABLE "tlq_wc_category_lookup"__________________________[ROWS:      14] [EXTRACT|REPLACE] [INST NAME: tlq_wc_category_lookup]
+TABLE "tlq_wc_customer_lookup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_wc_customer_lookup]
+TABLE "tlq_wc_download_log"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_wc_download_log]
+TABLE "tlq_wc_order_coupon_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_wc_order_coupon_lookup]
+TABLE "tlq_wc_order_product_lookup"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_wc_order_product_lookup]
+TABLE "tlq_wc_order_stats"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_wc_order_stats]
+TABLE "tlq_wc_order_tax_lookup"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_wc_order_tax_lookup]
+TABLE "tlq_wc_product_attributes_lookup"________________[ROWS:      41] [EXTRACT|REPLACE] [INST NAME: tlq_wc_product_attributes_lookup]
+TABLE "tlq_wc_product_download_directories"_____________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: tlq_wc_product_download_directories]
+TABLE "tlq_wc_product_meta_lookup"______________________[ROWS:      41] [EXTRACT|REPLACE] [INST NAME: tlq_wc_product_meta_lookup]
+TABLE "tlq_wc_rate_limits"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_wc_rate_limits]
+TABLE "tlq_wc_reserved_stock"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_wc_reserved_stock]
+TABLE "tlq_wc_tax_rate_classes"_________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: tlq_wc_tax_rate_classes]
+TABLE "tlq_wc_webhooks"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_wc_webhooks]
+TABLE "tlq_woocommerce_api_keys"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_api_keys]
+TABLE "tlq_woocommerce_attribute_taxonomies"____________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_attribute_taxonomies]
+TABLE "tlq_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_downloadable_product_permissions]
+TABLE "tlq_woocommerce_log"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_log]
+TABLE "tlq_woocommerce_order_itemmeta"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_order_itemmeta]
+TABLE "tlq_woocommerce_order_items"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_order_items]
+TABLE "tlq_woocommerce_payment_tokenmeta"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_payment_tokenmeta]
+TABLE "tlq_woocommerce_payment_tokens"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_payment_tokens]
+TABLE "tlq_woocommerce_sessions"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_sessions]
+TABLE "tlq_woocommerce_shipping_zones"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_shipping_zones]
+TABLE "tlq_woocommerce_shipping_zone_locations"_________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_shipping_zone_locations]
+TABLE "tlq_woocommerce_shipping_zone_methods"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_shipping_zone_methods]
+TABLE "tlq_woocommerce_tax_rates"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_tax_rates]
+TABLE "tlq_woocommerce_tax_rate_locations"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: tlq_woocommerce_tax_rate_locations]
+TABLE "tlq_yoast_indexable"_____________________________[ROWS:     113] [EXTRACT|REPLACE] [INST NAME: tlq_yoast_indexable]
+TABLE "tlq_yoast_indexable_hierarchy"___________________[ROWS:     105] [EXTRACT|REPLACE] [INST NAME: tlq_yoast_indexable_hierarchy]
+TABLE "tlq_yoast_migrations"____________________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: tlq_yoast_migrations]
+TABLE "tlq_yoast_primary_term"__________________________[ROWS:      40] [EXTRACT|REPLACE] [INST NAME: tlq_yoast_primary_term]
+TABLE "tlq_yoast_seo_links"_____________________________[ROWS:     612] [EXTRACT|REPLACE] [INST NAME: tlq_yoast_seo_links]
+TABLE "tlq_yoast_seo_meta"______________________________[ROWS:     258] [EXTRACT|REPLACE] [INST NAME: tlq_yoast_seo_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 11.4.5 -- Build Server: 10.11.10
+FILE SIZE:	dup-database__[HASH].sql (4.75MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`muneerjohosting_wonderland`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 3899249
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	6627
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "tlq_actionscheduler_actions"_____________________[ROWS:     5]
+TABLE "tlq_actionscheduler_claims"______________________[ROWS:     1]
+TABLE "tlq_actionscheduler_groups"______________________[ROWS:     4]
+TABLE "tlq_actionscheduler_logs"________________________[ROWS:    11]
+TABLE "tlq_commentmeta"_________________________________[ROWS:     0]
+TABLE "tlq_comments"____________________________________[ROWS:     0]
+TABLE "tlq_duplicator_packages"_________________________[ROWS:     1]
+TABLE "tlq_links"_______________________________________[ROWS:     0]
+TABLE "tlq_options"_____________________________________[ROWS:   480]
+TABLE "tlq_postmeta"____________________________________[ROWS:  2849]
+TABLE "tlq_posts"_______________________________________[ROWS:   573]
+TABLE "tlq_term_relationships"__________________________[ROWS:   169]
+TABLE "tlq_term_taxonomy"_______________________________[ROWS:   307]
+TABLE "tlq_termmeta"____________________________________[ROWS:   308]
+TABLE "tlq_terms"_______________________________________[ROWS:   307]
+TABLE "tlq_usermeta"____________________________________[ROWS:    71]
+TABLE "tlq_users"_______________________________________[ROWS:     2]
+TABLE "tlq_wc_admin_note_actions"_______________________[ROWS:   127]
+TABLE "tlq_wc_admin_notes"______________________________[ROWS:    95]
+TABLE "tlq_wc_category_lookup"__________________________[ROWS:    14]
+TABLE "tlq_wc_customer_lookup"__________________________[ROWS:     0]
+TABLE "tlq_wc_download_log"_____________________________[ROWS:     0]
+TABLE "tlq_wc_order_coupon_lookup"______________________[ROWS:     0]
+TABLE "tlq_wc_order_product_lookup"_____________________[ROWS:     0]
+TABLE "tlq_wc_order_stats"______________________________[ROWS:     0]
+TABLE "tlq_wc_order_tax_lookup"_________________________[ROWS:     0]
+TABLE "tlq_wc_product_attributes_lookup"________________[ROWS:    41]
+TABLE "tlq_wc_product_download_directories"_____________[ROWS:     2]
+TABLE "tlq_wc_product_meta_lookup"______________________[ROWS:    41]
+TABLE "tlq_wc_rate_limits"______________________________[ROWS:     0]
+TABLE "tlq_wc_reserved_stock"___________________________[ROWS:     0]
+TABLE "tlq_wc_tax_rate_classes"_________________________[ROWS:     4]
+TABLE "tlq_wc_webhooks"_________________________________[ROWS:     0]
+TABLE "tlq_woocommerce_api_keys"________________________[ROWS:     0]
+TABLE "tlq_woocommerce_attribute_taxonomies"____________[ROWS:     5]
+TABLE "tlq_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "tlq_woocommerce_log"_____________________________[ROWS:     0]
+TABLE "tlq_woocommerce_order_itemmeta"__________________[ROWS:     0]
+TABLE "tlq_woocommerce_order_items"_____________________[ROWS:     0]
+TABLE "tlq_woocommerce_payment_tokenmeta"_______________[ROWS:     0]
+TABLE "tlq_woocommerce_payment_tokens"__________________[ROWS:     0]
+TABLE "tlq_woocommerce_sessions"________________________[ROWS:     1]
+TABLE "tlq_woocommerce_shipping_zone_locations"_________[ROWS:     0]
+TABLE "tlq_woocommerce_shipping_zone_methods"___________[ROWS:     0]
+TABLE "tlq_woocommerce_shipping_zones"__________________[ROWS:     0]
+TABLE "tlq_woocommerce_tax_rate_locations"______________[ROWS:     0]
+TABLE "tlq_woocommerce_tax_rates"_______________________[ROWS:     0]
+TABLE "tlq_yoast_indexable"_____________________________[ROWS:   113]
+TABLE "tlq_yoast_indexable_hierarchy"___________________[ROWS:   105]
+TABLE "tlq_yoast_migrations"____________________________[ROWS:    24]
+TABLE "tlq_yoast_primary_term"__________________________[ROWS:    40]
+TABLE "tlq_yoast_seo_links"_____________________________[ROWS:   612]
+TABLE "tlq_yoast_seo_meta"______________________________[ROWS:   258]
+
+INSERT DATA RUNTIME: 7.3228 sec.
+STEP-2 COMPLETE @ 04:14:59 - RUNTIME: 7.3228 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam REPLACE: /home/muneerjohosting/public_html [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://demo01.setupwebsite.org/wonderlandvietnam REPLACE: http://oneoffice.vn [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 04:14:59
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 1536M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:/home/muneerjohosting/public_html/dup-installer/src/Core/Deploy/Database/DbCleanup.php|LINE:95]
+CLEAN OPTIONS [tlq_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:   109]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "tlq_actionscheduler_actions"_____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_actionscheduler_actions][0]
+
+EVALUATE TABLE: "tlq_actionscheduler_claims"______________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_actionscheduler_groups"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_actionscheduler_groups][0]
+
+EVALUATE TABLE: "tlq_actionscheduler_logs"________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_actionscheduler_logs][0]
+
+EVALUATE TABLE: "tlq_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_comments"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_options"_____________________________________[ROWS:   371][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_options][0]
+
+EVALUATE TABLE: "tlq_postmeta"____________________________________[ROWS:  2849][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][tlq_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][tlq_postmeta][2]
+
+EVALUATE TABLE: "tlq_posts"_______________________________________[ROWS:   573][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_posts][0]
+
+EVALUATE TABLE: "tlq_termmeta"____________________________________[ROWS:   308][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_termmeta][0]
+
+EVALUATE TABLE: "tlq_terms"_______________________________________[ROWS:   307][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_terms][0]
+
+EVALUATE TABLE: "tlq_term_relationships"__________________________[ROWS:   169][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_term_taxonomy"_______________________________[ROWS:   307][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_term_taxonomy][0]
+
+EVALUATE TABLE: "tlq_usermeta"____________________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_usermeta][0]
+
+EVALUATE TABLE: "tlq_users"_______________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_users][0]
+
+EVALUATE TABLE: "tlq_wc_admin_notes"______________________________[ROWS:    95][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_wc_admin_notes][0]
+
+EVALUATE TABLE: "tlq_wc_admin_note_actions"_______________________[ROWS:   127][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "tlq_wc_category_lookup"__________________________[ROWS:    14][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_wc_customer_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_wc_download_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_wc_order_coupon_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_wc_order_product_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_wc_order_stats"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_wc_order_tax_lookup"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_wc_product_attributes_lookup"________________[ROWS:    41][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_wc_product_attributes_lookup][0]
+
+EVALUATE TABLE: "tlq_wc_product_download_directories"_____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_wc_product_download_directories][0]
+
+EVALUATE TABLE: "tlq_wc_product_meta_lookup"______________________[ROWS:    41][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "tlq_wc_rate_limits"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_wc_reserved_stock"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_wc_tax_rate_classes"_________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "tlq_wc_webhooks"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_api_keys"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_attribute_taxonomies"____________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_woocommerce_attribute_taxonomies][0]
+
+EVALUATE TABLE: "tlq_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_order_itemmeta"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_order_items"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_payment_tokenmeta"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_payment_tokens"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_sessions"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_woocommerce_sessions][0]
+
+EVALUATE TABLE: "tlq_woocommerce_shipping_zones"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_shipping_zone_locations"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_shipping_zone_methods"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_tax_rates"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_woocommerce_tax_rate_locations"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_yoast_indexable"_____________________________[ROWS:   113][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_yoast_indexable][0]
+
+EVALUATE TABLE: "tlq_yoast_indexable_hierarchy"___________________[ROWS:   105][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "tlq_yoast_migrations"____________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_yoast_migrations][0]
+
+EVALUATE TABLE: "tlq_yoast_primary_term"__________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_yoast_primary_term][0]
+
+EVALUATE TABLE: "tlq_yoast_seo_links"_____________________________[ROWS:   612][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/u105530435/domains/demo01.setupwebsite.org/public_html/wonderlandvietnam" => "/home/muneerjohosting/public_html"
+	SEARCH[urlnd]  2:"https://demo01.setupwebsite.org/wonderlandvietnam" => "http://oneoffice.vn"
+	CHUNK ACTION: CURRENT [search_replace][tlq_yoast_seo_links][0]
+
+EVALUATE TABLE: "tlq_yoast_seo_meta"______________________________[ROWS:   258][PG:   1][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:53 	|	 Rows:5913 	|	 Cells:48084 
+UPDATED:	Tables:9 	|	 Rows:1253 	|	 Cells:1444 
+ERRORS:		0 
+RUNTIME:	0.636900 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/muneerjohosting/public_html/wp-config.php
+New htaccess file created:/home/muneerjohosting/public_html/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "__DIR__ . '/'"
+	UPDATE WP_SITEURL "http://oneoffice.vn"
+	UPDATE DB_NAME ""muneerjohosting_wonderland""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "__DIR__ . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/muneerjohosting/public_html"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:15:00 - RUNTIME: 0.7397 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home/muneerjohosting/public_html/index.php
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php[29]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php[13]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/header.php[2459]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[48]
+	FUNCTION: get_header                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[5]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/overlays/overlay-menu.php[63]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-footer.php[5]
+	FUNCTION: flatsome_mobile_menu          FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[3065]
+	FUNCTION: wp_footer                     FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/footer.php[21]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[92]
+	FUNCTION: get_footer                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[104]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/overlays/overlay-menu.php[63]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-footer.php[5]
+	FUNCTION: flatsome_mobile_menu          FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[3065]
+	FUNCTION: wp_footer                     FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/footer.php[21]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[92]
+	FUNCTION: get_footer                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[104]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/overlays/overlay-menu.php[63]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-footer.php[5]
+	FUNCTION: flatsome_mobile_menu          FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[3065]
+	FUNCTION: wp_footer                     FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/footer.php[21]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[92]
+	FUNCTION: get_footer                    FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/page-blank.php[104]
+	FUNCTION: include                       FILE: /home/muneerjohosting/public_html/wp-includes/template-loader.php[106]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-blog-header.php[19]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/index.php[17]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-content/wp_test_script_a42e1bf-21094019.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED strstr(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	--- TRACE ---
+	FUNCTION: strstr                        FILE: /home/muneerjohosting/public_html/wp-content/plugins/woocommerce/includes/wc-page-functions.php[139]
+	FUNCTION: wc_nav_menu_items             FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[205]
+	FUNCTION: apply_filters                 FILE: /home/muneerjohosting/public_html/wp-includes/nav-menu-template.php[234]
+	FUNCTION: wp_nav_menu                   FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[56]
+	FUNCTION: flatsome_header_nav           FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php[93]
+	FUNCTION: flatsome_header_elements      FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/template-parts/overlays/overlay-menu.php[63]
+	FUNCTION: require                       FILE: /home/muneerjohosting/public_html/wp-includes/template.php[785]
+	FUNCTION: load_template                 FILE: /home/muneerjohosting/public_html/wp-includes/template.php[718]
+	FUNCTION: locate_template               FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[204]
+	FUNCTION: get_template_part             FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome/inc/structure/structure-footer.php[5]
+	FUNCTION: flatsome_mobile_menu          FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/muneerjohosting/public_html/wp-includes/class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: /home/muneerjohosting/public_html/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/muneerjohosting/public_html/wp-includes/general-template.php[3065]
+	FUNCTION: wp_footer                     FILE: /home/muneerjohosting/public_html/wp-content/themes/flatsome-child/footer.php[21]
+	FUNCTION: require_once                  FILE: /home/muneerjohosting/public_html/wp-includes/template.php[783]
+	FUNCTION: load_template                 FILE: /home/muneerjoho====================================
+LOG-TIME[/home/muneerjohosting/public_html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.01957]  MESSAGE:END RENDER PAGE

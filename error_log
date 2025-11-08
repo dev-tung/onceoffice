@@ -1,0 +1,4402 @@
+[08-Aug-2025 02:56:35 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 02:56:40 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 03:19:53 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 03:32:13 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => dong-da
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 05:13:38 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => cau-giay
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 05:55:19 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                            [1] => bac-tu-liem
+                            [2] => cau-giay
+                            [3] => dong-da
+                            [4] => hai-ba-trung
+                            [5] => hoan-kiem
+                            [6] => nam-tu-liem
+                            [7] => tay-ho
+                            [8] => thanh-xuan
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 05:55:31 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 05:58:04 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                            [1] => bac-tu-liem
+                            [2] => cau-giay
+                            [3] => dong-da
+                            [4] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 06:36:01 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hoan-kiem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 06:39:54 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 06:44:25 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 06:58:26 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_duong-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => tran-huy-lieu
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[08-Aug-2025 08:31:30 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => dong-da
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 08:58:42 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 09:19:21 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => thanh-xuan
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 10:50:29 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => tay-ho
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 13:54:56 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 55
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[08-Aug-2025 18:05:55 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_duong-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => le-van-luong
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[08-Aug-2025 18:14:57 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_duong-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => phan-chu-trinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[08-Aug-2025 22:38:07 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[09-Aug-2025 03:20:28 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[09-Aug-2025 14:24:33 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 100
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[09-Aug-2025 21:04:17 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => thanh-xuan
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[09-Aug-2025 22:53:01 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[09-Aug-2025 23:29:00 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => cau-giay
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 07:39:56 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hoan-kiem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 07:40:01 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 07:40:07 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 07:40:13 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => dong-da
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 07:40:20 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => cau-giay
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 07:40:24 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 07:40:28 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => thanh-xuan
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 07:40:32 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => tay-ho
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 12:58:47 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hoan-kiem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 12:58:52 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 12:58:58 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 12:59:02 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => dong-da
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 12:59:08 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => cau-giay
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 12:59:12 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 12:59:15 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => thanh-xuan
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 12:59:19 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => tay-ho
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[10-Aug-2025 15:32:23 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_duong-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => lieu-giai
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[11-Aug-2025 12:24:03 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[11-Aug-2025 12:26:26 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[11-Aug-2025 12:26:34 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:24:39 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hoan-kiem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:24:40 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:24:41 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:24:42 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => dong-da
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:24:43 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => cau-giay
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:24:44 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:24:45 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => thanh-xuan
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:24:46 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => tay-ho
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:25:54 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:25:56 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hoan-kiem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:25:58 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hoan-kiem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:01 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:04 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:07 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:11 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:14 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => dong-da
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:16 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => dong-da
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:19 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => cau-giay
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:23 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => cau-giay
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:27 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:30 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:32 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => thanh-xuan
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:34 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => thanh-xuan
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:37 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => tay-ho
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:26:41 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => tay-ho
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:19 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:20 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:21 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 0
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:22 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hoan-kiem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:23 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 999999
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:24 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:25 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:26 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => dong-da
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:27 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => cau-giay
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:28 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:29 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => thanh-xuan
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[12-Aug-2025 03:27:30 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => tay-ho
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+)
+
+[13-Aug-2025 03:44:06 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 07:06:25 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 07:18:19 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 10:56:14 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 11:00:55 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => ba-dinh
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:05:11 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:07:31 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hoan-kiem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:07:35 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:09:23 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:10:17 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:10:24 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:11:07 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => hai-ba-trung
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:11:14 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:11:21 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[13-Aug-2025 15:11:28 UTC] Custom query args: Array
+(
+    [post_type] => product
+    [post_status] => publish
+    [posts_per_page] => 10
+    [paged] => 1
+    [tax_query] => Array
+        (
+            [relation] => AND
+            [0] => Array
+                (
+                    [taxonomy] => product_cat
+                    [field] => term_id
+                    [terms] => 36
+                )
+
+            [1] => Array
+                (
+                    [taxonomy] => pa_quan-ha-noi
+                    [field] => slug
+                    [terms] => Array
+                        (
+                            [0] => nam-tu-liem
+                        )
+
+                    [operator] => IN
+                )
+
+        )
+
+    [meta_query] => Array
+        (
+            [0] => Array
+                (
+                    [key] => _price
+                    [value] => Array
+                        (
+                            [0] => 20
+                            [1] => 40
+                        )
+
+                    [compare] => BETWEEN
+                    [type] => NUMERIC
+                )
+
+        )
+
+)
+
+[28-Aug-2025 02:15:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[28-Aug-2025 02:15:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[28-Aug-2025 02:15:58 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[28-Aug-2025 02:15:58 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[28-Oct-2025 16:28:39 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `tlq_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\Jetpack\Autoloader\jpa51b108f1ecd9d34ea1edd07d52359bc\Shutdown_Handler->__invoke, Automattic\Jetpack\Autoloader\jpa51b108f1ecd9d34ea1edd07d52359bc\Plugins_Handler->cache_plugins, set_transient, update_option
+[29-Oct-2025 09:15:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Oct-2025 09:15:45 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Oct-2025 09:15:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[29-Oct-2025 09:15:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.

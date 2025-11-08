@@ -1,0 +1,778 @@
+{
+    "dup_type": "lite",
+    "created": "2025-07-21 09:40:19",
+    "version_dup": "1.5.13",
+    "version_wp": "6.2.6",
+    "version_db": "10.11.10",
+    "version_php": "8.2.27",
+    "version_os": "Linux",
+    "blogname": "wonderlandvietnam.vn",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$3pOFw4WMvyOngqbqlsvwzOx2DURrErsbfUdPRpvRH4hhx2.3arA66",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "tlq_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "demo01.setupwebsite.org",
+            "path": "\/wonderlandvietnam\/",
+            "blogname": "wonderlandvietnam.vn",
+            "blog_prefix": "tlq_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "2",
+                    "user_login": "hethong",
+                    "id": "2"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam",
+            "fullSiteUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": null,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "u105530435_wonderlandviet",
+        "tablesBaseCount": 53,
+        "tablesFinalCount": 53,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 6170,
+        "tablesSizeOnDisk": 9846784,
+        "tablesList": {
+            "tlq_actionscheduler_actions": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 147456
+            },
+            "tlq_actionscheduler_claims": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "tlq_actionscheduler_groups": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 32768
+            },
+            "tlq_actionscheduler_logs": {
+                "inaccurateRows": 11,
+                "insertedRows": 11,
+                "size": 49152
+            },
+            "tlq_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "tlq_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "tlq_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "tlq_options": {
+                "inaccurateRows": 471,
+                "insertedRows": 480,
+                "size": 3424256
+            },
+            "tlq_postmeta": {
+                "inaccurateRows": 2475,
+                "insertedRows": 2849,
+                "size": 1802240
+            },
+            "tlq_posts": {
+                "inaccurateRows": 556,
+                "insertedRows": 573,
+                "size": 1720320
+            },
+            "tlq_termmeta": {
+                "inaccurateRows": 308,
+                "insertedRows": 308,
+                "size": 81920
+            },
+            "tlq_terms": {
+                "inaccurateRows": 307,
+                "insertedRows": 307,
+                "size": 81920
+            },
+            "tlq_term_relationships": {
+                "inaccurateRows": 169,
+                "insertedRows": 169,
+                "size": 32768
+            },
+            "tlq_term_taxonomy": {
+                "inaccurateRows": 307,
+                "insertedRows": 307,
+                "size": 98304
+            },
+            "tlq_usermeta": {
+                "inaccurateRows": 71,
+                "insertedRows": 71,
+                "size": 65536
+            },
+            "tlq_users": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 65536
+            },
+            "tlq_wc_admin_notes": {
+                "inaccurateRows": 95,
+                "insertedRows": 95,
+                "size": 65536
+            },
+            "tlq_wc_admin_note_actions": {
+                "inaccurateRows": 127,
+                "insertedRows": 127,
+                "size": 65536
+            },
+            "tlq_wc_category_lookup": {
+                "inaccurateRows": 14,
+                "insertedRows": 14,
+                "size": 16384
+            },
+            "tlq_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "tlq_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "tlq_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_wc_product_attributes_lookup": {
+                "inaccurateRows": 41,
+                "insertedRows": 41,
+                "size": 32768
+            },
+            "tlq_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "tlq_wc_product_meta_lookup": {
+                "inaccurateRows": 41,
+                "insertedRows": 41,
+                "size": 114688
+            },
+            "tlq_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "tlq_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "tlq_wc_tax_rate_classes": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 32768
+            },
+            "tlq_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "tlq_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "tlq_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "tlq_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "tlq_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "tlq_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "tlq_woocommerce_sessions": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "tlq_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "tlq_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "tlq_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "tlq_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "tlq_yoast_indexable": {
+                "inaccurateRows": 113,
+                "insertedRows": 113,
+                "size": 196608
+            },
+            "tlq_yoast_indexable_hierarchy": {
+                "inaccurateRows": 105,
+                "insertedRows": 105,
+                "size": 65536
+            },
+            "tlq_yoast_migrations": {
+                "inaccurateRows": 24,
+                "insertedRows": 24,
+                "size": 32768
+            },
+            "tlq_yoast_primary_term": {
+                "inaccurateRows": 40,
+                "insertedRows": 40,
+                "size": 49152
+            },
+            "tlq_yoast_seo_links": {
+                "inaccurateRows": 612,
+                "insertedRows": 612,
+                "size": 229376
+            },
+            "tlq_yoast_seo_meta": {
+                "inaccurateRows": 258,
+                "insertedRows": 258,
+                "size": 16384
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.11.10",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20250721_wonderlandvietnamvn",
+        "packageHash": "6aa8ccc-21094019",
+        "secondaryHash": "b06cd8e-21094019"
+    },
+    "fileInfo": {
+        "dirCount": 2100,
+        "fileCount": 15434,
+        "size": 342858584
+    },
+    "wpInfo": {
+        "version": "6.2.6",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam",
+        "targetPaths": [
+            "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam"
+        ],
+        "adminUsers": [
+            {
+                "ID": "2",
+                "user_login": "hethong",
+                "id": "2"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "s\/l-ssnfz~0`F8,sn,-rYfD Ppvfs._?D#-1u4cfVCl=A2bBFknXj~.H`PKWcCN3",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "2;YKB@J$4hq#e8l.)-f0 Q)v.&mX*q|$-!9YvFYOS`#ukSdO]<xjf.b HTQNt?JK",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "owJalVtKIfQy_ KE]NJ]56-s]:y(fdcc3#i9#OAvs8,!Z+= TUv0.PFX%&nb*`WR",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "S&G&!AYNIOFI:.[ZiB04mZ[3uzS>M)(m~6G+.])r6t&Fws*NyzOp!SI9I}x3r9d.",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "KV+ptY<c%;KhEu[c-X6o4j>Gd_]Gxe?uaHh<D#hyL<Zg|M:TUmqV%S@|)tuPY%eS",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "6@l0P:-c^f&mfw1p+S,x^|xd}KQBFbr~#CR fz,:-{b;wMbM;P;-L0~k$_Pwfw2$",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "?rNp1e(4%h*k[Ak04(0[=x+!\/nx%Ss! cr_WkK&]D%&ea!T@XTAGWao2N4KS#c|F",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "E=qe1B YjkM[=)k>6wdKUg3bC)0hz8op:HY6GKOyr7Q+unm+.{`RlYWa$+J]fw^~",
+                    "inWpConfig": true
+                },
+                "WP_SITEURL": {
+                    "value": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "1536M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/wonderlandvietnam\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/wonderlandvietnam\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wonderlandvietnam\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wonderlandvietnam\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/themes\/flatsome",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/themes\/flatsome-child",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam",
+                "homeUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam",
+                "loginUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-login.php",
+                "contentUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-content",
+                "uploadBaseUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/demo01.setupwebsite.org\/wonderlandvietnam\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam",
+                    "abs": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam",
+                    "wpconfig": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam",
+                    "wpcontent": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content",
+                    "uploads": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/uploads",
+                    "plugins": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/plugins",
+                    "muplugins": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam",
+                    "abs": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam",
+                    "wpconfig": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam",
+                    "wpcontent": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content",
+                    "uploads": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/uploads",
+                    "plugins": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/plugins",
+                    "muplugins": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u105530435\/domains\/demo01.setupwebsite.org\/public_html\/wonderlandvietnam\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "better-font-awesome\/better-font-awesome.php": {
+                "slug": "better-font-awesome\/better-font-awesome.php",
+                "name": "Better Font Awesome",
+                "version": "2.0.4",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/better-font-awesome",
+                "author": "Mickey Kay",
+                "authorURI": "mickeyskay@gmail.com",
+                "description": "The ultimate Font Awesome icon plugin for WordPress.",
+                "title": "Better Font Awesome",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "call-now-button\/call-now-button.php": {
+                "slug": "call-now-button\/call-now-button.php",
+                "name": "Call Now Button",
+                "version": "0.4.1",
+                "pluginURI": "https:\/\/callnowbutton.com",
+                "author": "Jerry Rietveld",
+                "authorURI": "http:\/\/www.jgrietveld.com",
+                "description": "Mobile visitors will see a <strong>Call Now Button<\/strong> on your website. Easy to use but flexible to meet more demanding requirements. Change placement and color, hide on specific pages, track how many people click them or conversions of your Google Ads campaigns. It's all optional but possible.",
+                "title": "Call Now Button",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-editor\/classic-editor.php": {
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6.3",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.7.7",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "yikes-inc-easy-custom-woocommerce-product-tabs\/yikes-inc-easy-custom-woocommerce-product-tabs.php": {
+                "slug": "yikes-inc-easy-custom-woocommerce-product-tabs\/yikes-inc-easy-custom-woocommerce-product-tabs.php",
+                "name": "Custom Product Tabs for WooCommerce",
+                "version": "1.8.4",
+                "pluginURI": "https:\/\/www.yikesinc.com",
+                "author": "YIKES, Inc.",
+                "authorURI": "https:\/\/www.yikesinc.com",
+                "description": "Extend WooCommerce to add and manage custom product tabs. Create as many product tabs as needed per product.",
+                "title": "Custom Product Tabs for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.13",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woo-permalink-manager\/premmerce-url-manager.php": {
+                "slug": "woo-permalink-manager\/premmerce-url-manager.php",
+                "name": "Premmerce Permalink Manager for WooCommerce",
+                "version": "2.3.8",
+                "pluginURI": "https:\/\/premmerce.com\/woocommerce-permalink-manager-remove-shop-product-product-category-url\/",
+                "author": "Premmerce",
+                "authorURI": "https:\/\/premmerce.com\/",
+                "description": "Premmerce Permalink Manager for WooCommerce allows you to change WooCommerce permalink and remove product and product_category slugs from the URL.",
+                "title": "Premmerce Permalink Manager for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "user-role-editor\/user-role-editor.php": {
+                "slug": "user-role-editor\/user-role-editor.php",
+                "name": "User Role Editor",
+                "version": "4.63.3",
+                "pluginURI": "https:\/\/www.role-editor.com",
+                "author": "Vladimir Garagulya",
+                "authorURI": "https:\/\/www.role-editor.com",
+                "description": "Change\/add\/delete WordPress user roles and capabilities.",
+                "title": "User Role Editor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "7.8.2",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordpress-seo\/wp-seo.php": {
+                "slug": "wordpress-seo\/wp-seo.php",
+                "name": "Yoast SEO",
+                "version": "20.11",
+                "pluginURI": "https:\/\/yoa.st\/1uj",
+                "author": "Team Yoast",
+                "authorURI": "https:\/\/yoa.st\/1uk",
+                "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+                "title": "Yoast SEO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "flatsome-child": {
+                "slug": "flatsome-child",
+                "themeName": "Flatsome Child",
+                "version": "3.0",
+                "themeURI": "",
+                "parentTheme": "flatsome",
+                "template": "flatsome",
+                "stylesheet": "flatsome-child",
+                "description": "This is a child theme for Flatsome Theme",
+                "author": "UX Themes",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "flatsome": {
+                "slug": "flatsome",
+                "themeName": "Flatsome",
+                "version": "3.16.2",
+                "themeURI": "http:\/\/flatsome.uxthemes.com",
+                "parentTheme": false,
+                "template": "flatsome",
+                "stylesheet": "flatsome",
+                "description": "Multi-Purpose Responsive WooCommerce Theme",
+                "author": "UX-Themes",
+                "authorURI": "https:\/\/uxthemes.com",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "wonderlandvietnam.vn"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20250721_wonderlandvietnamvn_6aa8ccc5a610c3dc5212_20250721094019_installer-backup.php",
+    "package_name": "20250721_wonderlandvietnamvn_6aa8ccc5a610c3dc5212_20250721094019_archive.zip",
+    "package_hash": "6aa8ccc-21094019",
+    "package_notes": ""
+}
