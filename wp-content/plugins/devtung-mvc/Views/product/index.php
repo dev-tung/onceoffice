@@ -19,10 +19,10 @@
           </div>
         </div>
 
-        <!-- Dropdown Quận -->
+        <!-- Dropdown Khu vực -->
         <div class="col large-2 small-12">
           <div class="custom-dropdown-wrapper">
-            <div class="dropdown-label">Quận</div>
+            <div class="dropdown-label">Khu vực</div>
             <div class="custom-dropdown" id="quan-dropdown">
               <div class="dropdown-display" id="quan-display">
                 <span class="selected-count">(<?php echo count($selectedDistricts); ?>) đã chọn</span>
