@@ -19,7 +19,7 @@ class DevTungMVC {
         $this->autoload_files();
 
         // Đăng ký CSS/JS
-        add_action('wp_enqueue_scripts', [$this, 'autoload_assets'], 9999);
+        add_action('wp_enqueue_scripts', [$this, 'autoload_assets']);
 
         // Khởi tạo controller
         add_action('plugins_loaded', [$this, 'init_controllers']);
@@ -47,25 +47,20 @@ class DevTungMVC {
         $plugin_url = plugin_dir_url(__FILE__);
         $version = '1.0.0';
 
-        // --- Load all CSS normally ---
+        // --- Load tất cả CSS ---
         $css_files = glob(__DIR__ . '/assets/css/*.css');
         foreach ($css_files as $file) {
             $handle = 'dt-' . basename($file, '.css');
             wp_enqueue_style($handle, $plugin_url . 'assets/css/' . basename($file), [], $version);
         }
 
-        // --- Load JS after all other scripts ---
-        add_action('wp_enqueue_scripts', function() use ($plugin_url, $version) {
-            $js_files = glob(__DIR__ . '/assets/js/*.js');
-
-            if (!empty($js_files)) {
-                foreach ($js_files as $file) {
-                    $handle = 'dt-' . basename($file, '.js');
-                    wp_enqueue_script($handle, $plugin_url . 'assets/js/' . basename($file), ['jquery'], $version, true);
-                }
-            }
-        }, 9999); // VERY high priority → runs after all other enqueue functions
-    }
+        // --- Load tất cả JS ---
+        $js_files = glob(__DIR__ . '/assets/js/*.js');
+        foreach ($js_files as $file) {
+            $handle = 'dt-' . basename($file, '.js');
+            wp_enqueue_script($handle, $plugin_url . 'assets/js/' . basename($file), ['jquery'], $version, true);
+        }
+    }    
 
     public function init_controllers() {
         $controllers = [
