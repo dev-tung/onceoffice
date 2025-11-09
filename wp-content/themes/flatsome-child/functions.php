@@ -735,59 +735,6 @@ add_action( 'init', function () {
 	flush_rewrite_rules();
 } );
 
-function enqueue_nouislider_assets() {
-	// Only load on product category pages
-	if ( is_product_category() ) {
-		// External dependencies
-		wp_enqueue_style( 'nouislider-css', 'https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css', array(), '15.7.1' );
-		wp_enqueue_script( 'nouislider-js', 'https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js', array( 'jquery' ), '15.7.1', true );
-
-		// Optimized category page assets
-		wp_enqueue_style(
-			'category-page-css',
-			get_stylesheet_directory_uri() . '/assets/css/category-page.css',
-			array(),
-			filemtime( get_stylesheet_directory() . '/assets/css/category-page.css' )
-		);
-
-		wp_enqueue_script(
-			'category-page-js',
-			get_stylesheet_directory_uri() . '/assets/js/category-page.js',
-			array( 'jquery', 'nouislider-js' ),
-			filemtime( get_stylesheet_directory() . '/assets/js/category-page.js' ),
-			true
-		);
-
-		// Pass data to JavaScript
-		$current_category_id = get_queried_object_id();
-		//$district_taxonomy = CategoryPageHelper::get_district_taxonomy( $current_category_id );
-
-		wp_localize_script( 'category-page-js', 'CategoryPageData', array(
-			'ajaxUrl' => admin_url( 'admin-ajax.php' ),
-			'nonce' => wp_create_nonce( 'autocomplete_search_nonce' ),
-			//'districtTaxonomy' => $district_taxonomy,
-			'currentCategory' => get_queried_object()->slug ?? '',
-		) );
-	}
-}
-
-add_action( 'wp_enqueue_scripts', 'enqueue_nouislider_assets' );
-
-
-function enqueue_single_product_assets() {
-    if ( is_product() ) {
-        // CSS riêng cho single product
-        wp_enqueue_style(
-            'single-product-css',
-            get_stylesheet_directory_uri() . '/assets/css/single-page.css',
-            [],
-            filemtime( get_stylesheet_directory() . '/assets/css/single-page.css' )
-        );
-    }
-}
-
-add_action( 'wp_enqueue_scripts', 'enqueue_single_product_assets' );
-
 
 // Bỏ query string khi so sánh menu active
 add_filter('nav_menu_css_class', function($classes, $item){
@@ -884,24 +831,3 @@ add_action('wp_footer', function(){
 </script>
 <?php
 });
-
-
-// asset for submenu
-function enqueue_building_submenu_assets() {
-	wp_enqueue_style(
-		'building-submenu-css',
-		get_stylesheet_directory_uri() . '/assets/css/building-submenu.css',
-		array(),
-		filemtime( get_stylesheet_directory() . '/assets/css/building-submenu.css' )
-	);
-
-	wp_enqueue_script(
-		'building-submenu-js',
-		get_stylesheet_directory_uri() . '/assets/js/building-submenu.js',
-		array( 'jquery', 'nouislider-js' ),
-		filemtime( get_stylesheet_directory() . '/assets/js/building-submenu.js' ),
-		true
-	);
-}
-
-add_action( 'wp_enqueue_scripts', 'enqueue_building_submenu_assets' );

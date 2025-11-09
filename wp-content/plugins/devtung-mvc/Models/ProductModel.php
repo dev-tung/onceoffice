@@ -79,43 +79,70 @@ class ProductModel {
             return [];
         }
 
-        // Lấy thông tin term
+        // Lấy term quận
         $term = get_term($district_id, 'product_cat');
         if (!$term || is_wp_error($term)) {
             return [];
         }
 
-        // Lấy slug của quận
-        $slug = $term->slug;
+        $district_slug = $term->slug;
 
-        // Dùng lại logic từ getByCategorySlug
+        // --- Lấy tất cả phường con của quận này ---
+        $ward_terms = get_terms([
+            'taxonomy'   => 'product_cat',
+            'hide_empty' => false,
+            'parent'     => $district_id,
+        ]);
+        $ward_slugs = wp_list_pluck($ward_terms, 'slug');
+
+        // --- Lấy sản phẩm WooCommerce theo quận hoặc phường ---
         $args = [
             'status'   => 'publish',
             'limit'    => $limit,
-            'category' => [$slug],
+            'category' => array_merge([$district_slug], $ward_slugs), // quận + phường
         ];
 
         $products = wc_get_products($args);
 
-        // 🔹 Chuyển danh sách sản phẩm WooCommerce sang dạng mảng
+        // --- Format sản phẩm, thêm slug quận/phường/rank ---
         return self::formatProducts($products);
     }
 
+    /**
+     * Chuyển sản phẩm WooCommerce sang mảng chuẩn
+     */
     protected static function formatProducts($products) {
-        $data = [];
-        foreach ($products as $p) {
-            if (!$p instanceof \WC_Product) continue;
+        $result = [];
 
-            $data[] = [
-                'id'        => $p->get_id(),
-                'name'      => $p->get_name(),
-                'price'     => wc_price($p->get_price()),
-                'link'      => $p->get_permalink(),
-                'thumbnail' => wp_get_attachment_image_url($p->get_image_id(), 'medium'),
+        foreach ($products as $product) {
+            // Lấy taxonomy term
+            $product_terms = wp_get_post_terms($product->get_id(), 'product_cat');
+            $district_slug = '';
+            $ward_slug     = '';
+            $rank_slug     = '';
+
+            foreach ($product_terms as $term) {
+                $type = get_field('product_category_type', 'product_cat_' . $term->term_id);
+
+                if ($type === 'district') $district_slug = $term->slug;
+                if ($type === 'ward') $ward_slug = $term->slug;
+                if ($type === 'rank') $rank_slug = $term->slug;
+            }
+
+            $result[] = [
+                'id'             => $product->get_id(),
+                'name'           => $product->get_name(),
+                'price'          => (float) $product->get_price(),
+                'thumbnail'      => get_the_post_thumbnail_url($product->get_id(), 'thumbnail'),
+                'district_slug'  => $district_slug,
+                'ward_slug'      => $ward_slug,
+                'rank_slug'      => $rank_slug,
             ];
         }
-        return $data;
+
+        return $result;
     }
+
 
 
     function slideImages($post_id, $size = 'large') {

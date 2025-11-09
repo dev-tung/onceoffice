@@ -65,6 +65,27 @@ jQuery(document).ready(function ($) {
     setupDropdown('#hang-dropdown', '#hang-display', '#hang-menu', '#selected-hang-items', '#current-hang-input');
 
 
+
+    /* =============================
+    TÌM KIẾM TRONG DROPDOWN KHU VỰC
+    =============================*/
+    $("#quan-search").on("input", function() {
+    const keyword = $(this).val().toLowerCase();
+    $("#quan-menu .dropdown-option").each(function() {
+        const text = $(this).text().toLowerCase();
+        if (text.includes(keyword)) {
+        $(this).show();
+        } else {
+        $(this).hide();
+        }
+    });
+    });
+
+
+
+
+
+
     /* =============================
        DROPDOWN GIÁ
     ==============================*/

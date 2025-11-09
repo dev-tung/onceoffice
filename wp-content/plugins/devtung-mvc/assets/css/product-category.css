@@ -175,8 +175,13 @@
 
 /* Quận Dropdown Styles */
 #quan-menu {
-    max-height: 250px;
+    max-height: 500px;
     overflow-y: auto;
+    
+}
+
+#quan-search{
+    margin-bottom: 0;
 }
 
 .selected-items {
@@ -937,3 +942,34 @@
 .BuildingItemContent .BuildingItemCare{
     background-color: #e6e6e6;
 }
+
+/* .custom-dropdown-wrapper .district-option label{
+    font-weight: 700;
+} */
+
+.custom-dropdown-wrapper .ward label{
+    font-weight: 100;
+}
+
+.dropdown-menu {
+  width: 280px; /* rộng hơn chút */
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.dropdown-search {
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+  background: #fafafa;
+}
+
+.dropdown-search input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+

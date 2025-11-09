@@ -29,12 +29,22 @@
                 <i class="fa fa-chevron-down dropdown-arrow"></i>
               </div>
               <div class="dropdown-menu" id="quan-menu" style="display:none;">
+
+
+
                 <div class="selected-items" id="selected-quan-items"></div>
+
+                <!-- Ô tìm kiếm -->
+                <div class="dropdown-search">
+                  <input type="text" id="quan-search" placeholder="Tìm quận hoặc phường...">
+                </div>
 
                 <div class="dropdown-options">
                   <?php foreach ($data['districts'] as $district) : ?>
                     <?php $isChecked = in_array($district['slug'], $selectedDistricts, true); ?>
-                    <div class="dropdown-option" data-value="<?php echo esc_html($district['slug']); ?>">
+                    
+                    <!-- Quận -->
+                    <div class="dropdown-option district" data-value="<?php echo esc_html($district['slug']); ?>">
                       <input type="checkbox"
                             id="quan_<?php echo esc_html($district['slug']); ?>"
                             value="<?php echo esc_html($district['slug']); ?>"
@@ -43,9 +53,26 @@
                         <?php echo esc_html($district['name']); ?>
                       </label>
                     </div>
+
+                    <!-- Phường -->
+                    <?php if (!empty($district['wards'])) : ?>
+                      <?php foreach ($district['wards'] as $ward) : ?>
+                        <?php $isWardChecked = in_array($ward['slug'], $selectedDistricts, true); ?>
+                        <div class="dropdown-option ward" data-parent="<?php echo esc_html($district['slug']); ?>" data-value="<?php echo esc_html($ward['slug']); ?>">
+                          <input type="checkbox"
+                                id="ward_<?php echo esc_html($ward['slug']); ?>"
+                                value="<?php echo esc_html($ward['slug']); ?>"
+                                <?php checked($isWardChecked); ?>>
+                          <label for="ward_<?php echo esc_html($ward['slug']); ?>">
+                            <?php echo esc_html($ward['name']); ?>
+                          </label>
+                        </div>
+                      <?php endforeach; ?>
+                    <?php endif; ?>
+
                   <?php endforeach; ?>
 
-                  <!-- Hidden input: name động -->
+                  <!-- Hidden input -->
                   <input type="hidden"
                         id="current-quan-input"
                         name="<?php echo esc_attr($filterQuanKey); ?>"
@@ -55,6 +82,7 @@
             </div>
           </div>
         </div>
+
 
         <!-- Dropdown Giá -->
         <div class="col large-2 small-12">
@@ -202,7 +230,7 @@
 
                         <?php if (!empty($product['price'])) : ?>
                           <span class="BuildingItemLocation">
-                            Giá: <?php echo wp_kses_post($product['price']); ?>
+                            Giá: <?php echo $product['price']; ?>
                           </span>
                         <?php endif; ?>
 
