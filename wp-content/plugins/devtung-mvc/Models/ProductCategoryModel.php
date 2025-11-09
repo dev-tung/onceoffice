@@ -24,8 +24,8 @@ class ProductCategoryModel {
             $data[] = [
                 'id'     => $term->term_id,
                 'name'   => $term->name,
-                'slug'   => $term->slug, // ✅ slug “ngắn” (dạng đơn)
-                'link'   => get_term_link($term->term_id, 'product_cat'), // ✅ link đầy đủ theo WP
+                'slug'   => $term->slug, 
+                'link'   => get_term_link($term->term_id, 'product_cat'), 
                 'parent' => $term->parent,
                 'type'   => get_field('product_category_type', 'product_cat_' . $term->term_id),
             ];
