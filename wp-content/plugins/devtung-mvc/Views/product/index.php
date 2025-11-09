@@ -186,11 +186,18 @@
           <div class="row">
             <div class="col SectionBuildingTagList">
               <?php foreach ($data['districts'] as $district) : ?>
-                <a class="SectionBuildingTag"
-                  href="">
-                  <?php echo esc_html($district['name']); ?>
-                </a>
+                  <?php
+                      // URL cơ bản của trang hiện tại
+                      $current_url = get_term_link(get_queried_object_id());
+
+                      // Chỉ thêm filter_district
+                      $district_url = add_query_arg('filter_district', $district['slug'], $current_url);
+                  ?>
+                  <a class="SectionBuildingTag" href="<?php echo esc_url($district_url); ?>">
+                      <?php echo esc_html($district['name']); ?>
+                  </a>
               <?php endforeach; ?>
+
             </div>
           </div>
 
