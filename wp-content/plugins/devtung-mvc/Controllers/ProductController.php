@@ -19,25 +19,10 @@ class ProductController extends BaseController {
     }
 
     public function index(){
-        $data = $this->service->index();
-
-        $filterQuanKey = 'filter_district';
-
-        $selectedDistricts  = [];
-        if (!empty($_GET['filter_district'])) {
-            $selectedDistricts = array_map('sanitize_text_field', explode(',', $_GET[$filterQuanKey]));
-        }
-
-        $selectedRanks = [];
-        if (!empty($_GET['filter_rank'])) {
-            $selectedRanks = array_map('sanitize_text_field', explode(',', $_GET['filter_rank']));
-        }
+        $formData = $this->service->formData();
 
         return $this->render('product/index', [
-            'data' => $data,
-            'filterQuanKey' => $filterQuanKey,
-            'selectedDistricts' => $selectedDistricts,
-            'selectedRanks' => $selectedRanks,
+            'formData' => $formData
         ]);
     }
 

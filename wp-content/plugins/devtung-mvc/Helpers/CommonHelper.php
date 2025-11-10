@@ -15,3 +15,11 @@ if (!function_exists('dd')) {
         die(1);
     }
 }
+
+
+if (!function_exists('dt_get_url_segments')) {
+    function dt_get_url_segments() {
+        $path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+        return explode('/', $path);
+    }
+}
