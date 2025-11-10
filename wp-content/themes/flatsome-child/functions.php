@@ -839,3 +839,11 @@ add_filter('document_title_parts', function($title) {
     }
     return $title;
 });
+
+add_filter('pre_get_document_title', function($title) {
+    if (is_product()) {
+        global $post;
+        return get_the_title($post);
+    }
+    return $title;
+});
