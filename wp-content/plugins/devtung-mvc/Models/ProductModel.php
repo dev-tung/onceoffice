@@ -209,7 +209,7 @@ class ProductModel {
                     'ID' => $id,
                     'post_title' => get_the_title($id),
                     'permalink' => get_permalink($id),
-                    '_vi_tri' => $district ? $district->name : '',
+                    '_vi_tri' => get_post_meta(get_the_ID(), '_vi_tri', true),
                     '_gia_hien_thi' => get_post_meta($id, '_gia_hien_thi', true),
                     '_rank' => $rank ? $rank->name : '',
                     'thumbnail' => get_the_post_thumbnail_url($id, 'medium') ?: '',

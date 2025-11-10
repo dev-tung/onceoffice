@@ -153,7 +153,8 @@ class ProductCategoryModel {
      *         'name' => 'Tòa nhà ABC',
      *         'link' => '/toa-nha-abc',
      *         'thumbnail' => 'https://example.com/img/abc.jpg',
-     *         'price' => '25 triệu/tháng',
+     *         '_vi_tri' => '25 ',
+     *         '_gia_hien_thi' => '25 ',
      *       ],
      *     ],
      *   ],
@@ -194,7 +195,8 @@ class ProductCategoryModel {
                         'name'      => get_the_title(),
                         'link'      => get_permalink(),
                         'thumbnail' => get_the_post_thumbnail_url(get_the_ID(), 'medium'),
-                        'price'     => $product ? $product->get_price_html() : '',
+                        '_vi_tri'      => get_post_meta(get_the_ID(), '_vi_tri', true),
+                        '_gia_hien_thi'=> get_post_meta(get_the_ID(), '_gia_hien_thi', true),
                     ];
                 }
                 wp_reset_postdata();

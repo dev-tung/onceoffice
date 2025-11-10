@@ -198,29 +198,26 @@
                       </a>
                     </div>
 
-                    <!-- Nội dung sản phẩm -->
                     <div class="content BuildingItemContent">
-                      <h3>
-                        <a class="BuildingItemName" href="<?= esc_url($product['link']); ?>" title="<?= esc_attr($product['name']); ?>">
-                          <?= esc_html($product['name']); ?>
-                        </a>
-                      </h3>
-
-                      <?php if (!empty($product['price'])): ?>
-                        <span class="BuildingItemLocation">Giá: <?= $product['price']; ?></span>
-                      <?php endif; ?>
-
-                      <!-- Nút Quan tâm -->
-                      <div class="meta">
-                        <span class="btn-care quan_tam js-btn-care BuildingItemCare" type="button" data-id="<?= esc_attr($product['id']); ?>">
-                          <span>
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                          </span>
-                          Quan tâm
-                        </span>
-                      </div>
+                        <h3>
+                            <a class="BuildingItemName" href="<?= esc_url($product['link']); ?>" title="<?= esc_attr($product['name']); ?>">
+                                <?= esc_html($product['name']); ?>
+                            </a>
+                        </h3>
+                        <span class="BuildingItemLocation"><?php echo $product['_vi_tri']; ?></span>
+                        <div class="meta">
+                            <span class="price"><?php echo $product['_gia_hien_thi']; ?></span>
+                            <span class="btn-care quan_tam js-btn-care BuildingItemCare" type="button" data-id="<?php echo $product['ID']; ?>">
+                                <span>
+                                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                </span> 
+                                Quan tâm 
+                            </span>
+                        </div>
                     </div>
+
+
                   </div>
                 </div>
               <?php endforeach; ?>
