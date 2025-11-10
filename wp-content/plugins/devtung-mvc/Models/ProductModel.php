@@ -101,4 +101,123 @@ class ProductModel {
 
         return $urls;
     }
+
+
+    // public static function getBuildingWithFilter($formData) {
+    //     return [
+    //         [
+    //             'ID' => 101,
+    //             'post_title' => 'Văn phòng Sunshine',
+    //             'permalink' => '#link-101',  // fake permalink
+    //             '_vi_tri' => 'Quận 1',
+    //             '_gia_hien_thi' => '<strong>1.000$</strong>',
+    //             'thumbnail' => 'https://via.placeholder.com/150',
+    //         ],
+    //         [
+    //             'ID' => 102,
+    //             'post_title' => 'Văn phòng Sky Tower',
+    //             'permalink' => '#link-102',
+    //             '_vi_tri' => 'Quận 3',
+    //             '_gia_hien_thi' => '<em>1.500$</em>',
+    //             'thumbnail' => 'https://via.placeholder.com/150',
+    //         ],
+    //         [
+    //             'ID' => 103,
+    //             'post_title' => 'Tòa nhà Green Office',
+    //             'permalink' => '#link-103',
+    //             '_vi_tri' => 'Quận 7',
+    //             '_gia_hien_thi' => '2.000$',
+    //             'thumbnail' => 'https://via.placeholder.com/150',
+    //         ],
+    //     ];
+        
+    // }
+
+    public static function getBuildingWithFilter($formData = []) {
+        $args = [
+            'post_type' => 'product', // hoặc post_type building
+            'posts_per_page' => -1,
+            's' => !empty($formData['searchTerm']) ? $formData['searchTerm'] : '',
+        ];
+
+        $taxQuery = [];
+
+        // Lấy slug các term district đã chọn
+        if (!empty($formData['selectedDistricts'])) {
+            $taxQuery[] = [
+                'taxonomy' => 'product_cat',
+                'field' => 'slug',
+                'terms' => $formData['selectedDistricts'],
+                'operator' => 'IN',
+                'include_children' => false,
+            ];
+        }
+
+        // Lấy slug các term rank đã chọn
+        if (!empty($formData['selectedRanks'])) {
+            $taxQuery[] = [
+                'taxonomy' => 'product_cat',
+                'field' => 'slug',
+                'terms' => $formData['selectedRanks'],
+                'operator' => 'IN',
+                'include_children' => false,
+            ];
+        }
+
+        if (!empty($taxQuery)) {
+            $args['tax_query'] = $taxQuery;
+        }
+
+        // Lọc theo giá nếu có
+        if (isset($formData['minPrice']) || isset($formData['maxPrice'])) {
+            $minPrice = $formData['minPrice'] ?? 0;
+            $maxPrice = $formData['maxPrice'] ?? 1000000;
+
+            $args['meta_query'][] = [
+                'key' => '_gia_hien_thi', // lưu giá dạng số
+                'value' => [$minPrice, $maxPrice],
+                'compare' => 'BETWEEN',
+                'type' => 'NUMERIC',
+            ];
+        }
+
+        $query = new \WP_Query($args);
+
+        $buildings = [];
+
+        if ($query->have_posts()) {
+            while ($query->have_posts()) {
+                $query->the_post();
+                $id = get_the_ID();
+
+                // Lấy các term product_cat liên quan
+                $terms = get_the_terms($id, 'product_cat') ?: [];
+
+                $district = null;
+                $rank = null;
+
+                foreach ($terms as $term) {
+                    $type = get_field('product_category_type', 'product_cat_' . $term->term_id);
+                    if ($type === 'district') {
+                        $district = $term;
+                    } elseif ($type === 'rank') {
+                        $rank = $term;
+                    }
+                }
+
+                $buildings[] = [
+                    'ID' => $id,
+                    'post_title' => get_the_title($id),
+                    'permalink' => get_permalink($id),
+                    '_vi_tri' => $district ? $district->name : '',
+                    '_gia_hien_thi' => get_post_meta($id, '_gia_hien_thi', true),
+                    '_rank' => $rank ? $rank->name : '',
+                    'thumbnail' => get_the_post_thumbnail_url($id, 'medium') ?: '',
+                ];
+            }
+            wp_reset_postdata();
+        }
+
+        return $buildings;
+    }
 }

@@ -151,7 +151,7 @@
     </form>
     <!-- End Form search -->
 
-    <!-- Shop container -->
+    <!-- SectionBuilding -->
     <div class="shop-container">
       <section class="SectionBuilding">
 
@@ -173,61 +173,64 @@
         </div>
 
         <!-- Lặp từng district, hiển thị sản phẩm nếu có -->
-        <div class="BuildingQuanHeader">
-          <h4 class="BuildingQuanTitle">Cho thuê văn phòng quận Hoàn Kiếm</h4>
-          <a class="BuildingQuanLink" href="#">Xem thêm</a>
-        </div>
-
-        <div class="row list-building">
-          <div class="col large-3 small-12 pb-0">
-            <div class="building-item">
-
-              <!-- Hình ảnh sản phẩm -->
-              <div class="thumb">
-                <a href="#" title="Tòa nhà ABC">
-                  <img 
-                    src="path/to/image.jpg" 
-                    alt="Tòa nhà ABC" 
-                    class="img-responsive thumb-blog"
-                  />
-                </a>
-              </div>
-
-              <!-- Nội dung sản phẩm -->
-              <div class="content BuildingItemContent">
-                <h3>
-                  <a class="BuildingItemName" href="#" title="Tòa nhà ABC">
-                    Tòa nhà ABC
-                  </a>
-                </h3>
-
-                <!-- Giá nếu có -->
-                <span class="BuildingItemLocation">Giá: 25 triệu/tháng</span>
-
-                <!-- Nút Quan tâm -->
-                <div class="meta">
-                  <span class="btn-care quan_tam js-btn-care BuildingItemCare" type="button" data-id="1">
-                    <span>
-                      <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                    </span>
-                    Quan tâm
-                  </span>
-                </div>
-
-              </div>
+        <?php foreach ($districtData as $district): ?>
+          <?php if (!empty($district['products'])): ?>
+            <div class="BuildingQuanHeader">
+              <h4 class="BuildingQuanTitle">
+                Cho thuê văn phòng quận <?= esc_html($district['name']); ?>
+              </h4>
+              <a class="BuildingQuanLink" href="<?= esc_url($district['link']); ?>">Xem thêm</a>
             </div>
-          </div>
 
-          <!-- Thêm các sản phẩm khác -->
-        </div> <!-- End list-building -->
+            <div class="row list-building">
+              <?php foreach ($district['products'] as $product): ?>
+                <div class="col large-3 small-12 pb-0">
+                  <div class="building-item">
 
-        <!-- Thêm các district khác tương tự -->
+                    <!-- Hình ảnh sản phẩm -->
+                    <div class="thumb">
+                      <a href="<?= esc_url($product['link']); ?>" title="<?= esc_attr($product['name']); ?>">
+                        <img 
+                          src="<?= esc_url($product['thumbnail']); ?>" 
+                          alt="<?= esc_attr($product['name']); ?>" 
+                          class="img-responsive thumb-blog"
+                        />
+                      </a>
+                    </div>
 
+                    <!-- Nội dung sản phẩm -->
+                    <div class="content BuildingItemContent">
+                      <h3>
+                        <a class="BuildingItemName" href="<?= esc_url($product['link']); ?>" title="<?= esc_attr($product['name']); ?>">
+                          <?= esc_html($product['name']); ?>
+                        </a>
+                      </h3>
+
+                      <?php if (!empty($product['price'])): ?>
+                        <span class="BuildingItemLocation">Giá: <?= $product['price']; ?></span>
+                      <?php endif; ?>
+
+                      <!-- Nút Quan tâm -->
+                      <div class="meta">
+                        <span class="btn-care quan_tam js-btn-care BuildingItemCare" type="button" data-id="<?= esc_attr($product['id']); ?>">
+                          <span>
+                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                          </span>
+                          Quan tâm
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <?php endforeach; ?>
+            </div>
+          <?php endif; ?>
+        <?php endforeach; ?>
       </section>
     </div>
 
-    <!-- End shop container -->
+    <!-- End SectionBuilding -->
 
   </div>
 </div>

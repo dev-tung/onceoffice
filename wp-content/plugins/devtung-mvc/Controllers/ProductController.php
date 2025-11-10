@@ -26,9 +26,29 @@ class ProductController extends BaseController {
         // TAGS
         $tagData  = $formData['districts'];
 
+        // Lặp từng district
+        $districtData = $this->service->districtData();
+
+        // Render index or search page
+        if(  
+            !empty( $formData['searchTerm'] )
+            || !empty( $formData['selectedDistricts'] )
+            || $formData['minPrice'] > 0
+            || $formData['maxPrice'] < 100
+            || !empty( $formData['selectedRanks'] )
+        ){
+
+            $buildings = ProductService::getBuildingWithFilter($formData);
+            return $this->render('product/search', [
+                'formData' => $formData,
+                'buildings' => $buildings
+            ]);
+        }
+
         return $this->render('product/index', [
             'formData' => $formData,
             'tagData'  => $tagData,
+            'districtData' => $districtData
         ]);
     }
 

@@ -14,11 +14,18 @@ class ProductService {
         $formData['districts'] = ProductCategoryModel::getDistrictsWithWards();
         // dd($formData['districts']);
 
-        // Lấy danh sách districts đã chọn từ URL
+        // Lấy danh sách quận đã chọn
         $formData['selectedDistricts'] = [];
-        if (!empty($_GET['filter_location'])) {
+
+        $segments = dt_get_url_segments(); // ví dụ: ['cho-thue-van-phong-ha-noi', 'hoan-kiem']
+
+        // Nếu URL có segment thứ 2 (vd: /cho-thue-van-phong-ha-noi/hoan-kiem)
+        if (!empty($segments[1])) {
+            $formData['selectedDistricts'] = [$segments[1]];
+        }
+        // Nếu không có segment thứ 2, thì lấy từ query string filter_location
+        elseif (!empty($_GET['filter_location'])) {
             $districts = explode(',', sanitize_text_field($_GET['filter_location']));
-            // Loại bỏ rỗng, trim khoảng trắng
             $formData['selectedDistricts'] = array_filter(array_map('trim', $districts));
         }
         
@@ -26,12 +33,8 @@ class ProductService {
         $formData['minPrice'] = isset($_GET['min_price']) ? intval($_GET['min_price']) : 0;
         $formData['maxPrice'] = isset($_GET['max_price']) ? intval($_GET['max_price']) : 100;
 
-        // 3. Dropdown Hạng
-        $formData['ranks'] = [
-            ['name' => 'Hạng A', 'slug' => 'hang-a'],
-            ['name' => 'Hạng B', 'slug' => 'hang-b'],
-            ['name' => 'Hạng C', 'slug' => 'hang-c'],
-        ];
+        // 4. Dropdown Hạng
+        $formData['ranks'] = ProductCategoryModel::getByType('rank');
         
         // Lấy danh sách ranks đã chọn từ URL
         $formData['selectedRanks'] = [];
@@ -43,6 +46,13 @@ class ProductService {
         return $formData;
     }
 
+    public static function districtData(){
+        return ProductCategoryModel::getDistrictData();
+    }
+
+    public static function getBuildingWithFilter($formData){
+        return ProductModel::getBuildingWithFilter($formData);
+    }
     
 
 }
