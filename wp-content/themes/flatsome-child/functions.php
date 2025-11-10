@@ -831,3 +831,11 @@ add_action('wp_footer', function(){
 </script>
 <?php
 });
+
+add_filter('document_title_parts', function($title) {
+    // Xóa site name trong title
+    if (isset($title['site'])) {
+        unset($title['site']);
+    }
+    return $title;
+});
