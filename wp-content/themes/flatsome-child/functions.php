@@ -847,3 +847,10 @@ add_filter('pre_get_document_title', function($title) {
     }
     return $title;
 });
+
+add_action('init', function() {
+    if (current_user_can('administrator')) {
+        global $wpdb;
+        $wpdb->query("DELETE FROM {$wpdb->options} WHERE option_name LIKE '_transient_flatsome_%' OR option_name LIKE '_transient_timeout_flatsome_%'");
+    }
+});
