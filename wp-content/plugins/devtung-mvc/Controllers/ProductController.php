@@ -19,10 +19,16 @@ class ProductController extends BaseController {
     }
 
     public function index(){
+
+        // SEARCH FORM
         $formData = $this->service->formData();
 
+        // TAGS
+        $tagData  = $formData['districts'];
+
         return $this->render('product/index', [
-            'formData' => $formData
+            'formData' => $formData,
+            'tagData'  => $tagData,
         ]);
     }
 

@@ -4,21 +4,6 @@ namespace DevTung\MVC\Models;
 defined('ABSPATH') || exit;
 
 class ProductModel {
-
-    /**
-     * Lấy danh sách sản phẩm theo slug danh mục
-     */
-    public static function getByCategorySlug($slug, $limit = -1) {
-        $args = [
-            'status'   => 'publish',
-            'limit'    => $limit,
-            'category' => [$slug],
-        ];
-
-        $products = wc_get_products($args);
-        return self::formatProducts($products);
-    }
-
     /**
      * Lấy danh sách sản phẩm theo type của danh mục (ví dụ: highlight, district, rank)
      */
@@ -72,33 +57,6 @@ class ProductModel {
         }
 
         return $products;
-    }
-
-    public static function getByDistrict($district_id, $limit = -1) {
-        if (empty($district_id)) {
-            return [];
-        }
-
-        // Lấy thông tin term
-        $term = get_term($district_id, 'product_cat');
-        if (!$term || is_wp_error($term)) {
-            return [];
-        }
-
-        // Lấy slug của quận
-        $slug = $term->slug;
-
-        // Dùng lại logic từ getByCategorySlug
-        $args = [
-            'status'   => 'publish',
-            'limit'    => $limit,
-            'category' => [$slug],
-        ];
-
-        $products = wc_get_products($args);
-
-        // 🔹 Chuyển danh sách sản phẩm WooCommerce sang dạng mảng
-        return self::formatProducts($products);
     }
 
     protected static function formatProducts($products) {

@@ -5,32 +5,14 @@ use DevTung\MVC\Models\ProductCategoryModel;
 use DevTung\MVC\Models\ProductModel;
 
 class ProductService {
-    
+
     public static function formData() {
         // 1. Ô tìm kiếm
         $formData['searchTerm'] = !empty($_GET['s']) ? sanitize_text_field($_GET['s']) : '';
 
         // 2. Dropdown Khu vực
-        $formData['districts'] = [
-            [
-                'id' => 1,
-                'name' => 'Hoàn Kiếm',
-                'slug' => 'hoan-kiem',
-                'wards' => [
-                    ['id' => 101, 'name' => 'Phường Hàng Bạc', 'slug' => 'hang-bac'],
-                    ['id' => 102, 'name' => 'Phường Hàng Trống', 'slug' => 'hang-trong'],
-                ],
-            ],
-            [
-                'id' => 2,
-                'name' => 'Ba Đình',
-                'slug' => 'ba-dinh',
-                'wards' => [
-                    ['id' => 201, 'name' => 'Phường Cống Vị', 'slug' => 'cong-vi'],
-                    ['id' => 202, 'name' => 'Phường Điện Biên', 'slug' => 'dien-bien'],
-                ],
-            ],
-        ];
+        $formData['districts'] = ProductCategoryModel::getDistrictsWithWards();
+        // dd($formData['districts']);
 
         // Lấy danh sách districts đã chọn từ URL
         $formData['selectedDistricts'] = [];

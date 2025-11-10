@@ -49,4 +49,58 @@ class ProductCategoryModel {
             'type'  => $locationType,
         ];
     }
+
+
+
+    // Hàm getDistrictsWithWards
+    // Dữ liệu mẫu trả ra thế này [
+    //     ['id' => 1, 'name' => 'Hoàn Kiếm', 'slug' => 'hoan-kiem', 'wards' => [
+    //         ['id' => 101, 'name' => 'Phường Hàng Bạc', 'slug' => 'hang-bac'],
+    //         ['id' => 102, 'name' => 'Phường Hàng Trống', 'slug' => 'hang-trong'],
+    //     ]],
+    //     ['id' => 2, 'name' => 'Ba Đình', 'slug' => 'ba-dinh', 'wards' => [
+    //         ['id' => 201, 'name' => 'Phường Cống Vị', 'slug' => 'cong-vi'],
+    //         ['id' => 202, 'name' => 'Phường Điện Biên', 'slug' => 'dien-bien'],
+    //     ]],
+    // ];
+    public static function getDistrictsWithWards() {
+        function convertToNestedDistricts($flat) {
+            $districts = [];
+            $wards = [];
+
+            // Lọc ra districts và wards
+            foreach ($flat as $item) {
+                if ($item['type'] === 'district') {
+                    $districts[$item['id']] = [
+                        'id' => $item['id'],
+                        'name' => $item['name'],
+                        'slug' => $item['slug'],
+                        'link' => $item['link'],
+                        'wards' => [],
+                    ];
+                } elseif ($item['type'] === 'ward') {
+                    $wards[] = $item;
+                }
+            }
+
+            // Gán wards vào districts dựa vào parent
+            foreach ($wards as $ward) {
+                $parent_id = $ward['parent']; // parent = district_id
+                if (isset($districts[$parent_id])) {
+                    $districts[$parent_id]['wards'][] = [
+                        'id' => $ward['id'],
+                        'name' => $ward['name'],
+                        'slug' => $ward['slug'],
+                        'link' => $ward['link']
+                    ];
+                }
+            }
+
+            // Reset key mảng để trả về dạng indexed array
+            return array_values($districts);
+        }
+
+        $result = self::getAllWithType();
+        return convertToNestedDistricts($result);
+    }    
 }

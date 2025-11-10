@@ -151,8 +151,83 @@
     </form>
     <!-- End Form search -->
 
+    <!-- Shop container -->
+    <div class="shop-container">
+      <section class="SectionBuilding">
 
+        <!-- Header giới thiệu -->
+        <div class="SectionBuildingHeader">
+          <h3 class="SectionBuildingTitle">Cho thuê văn phòng Hà Nội</h3>
+          <p>Nhận được ngay báo giá, thông tin chi tiết của hàng ngàn toà nhà văn phòng lớn nhỏ. Với dịch vụ tư vấn của Wonderland, bạn sẽ không lo bỏ lỡ những văn phòng đẹp, phù hợp nhất với mức giá tốt nhất. Ngoài ra, thông tin tư vấn chuyên sâu của chúng tôi sẽ mang lại cho bạn cái nhìn toàn cảnh, chi tiết, công bằng mà không dễ có được sau một vài lần ghé thăm toà nhà hoặc được chia sẻ từ phía bên cho thuê.</p>
+        </div>
 
+        <!-- Danh sách districts dưới dạng tag -->
+        <div class="row">
+          <div class="col SectionBuildingTagList">
+              <?php foreach ($tagData as $district): ?>
+                  <a class="SectionBuildingTag" href="<?= htmlspecialchars($district['link']) ?>">
+                      <?= htmlspecialchars($district['name']) ?>
+                  </a>
+              <?php endforeach; ?>
+          </div>
+        </div>
+
+        <!-- Lặp từng district, hiển thị sản phẩm nếu có -->
+        <div class="BuildingQuanHeader">
+          <h4 class="BuildingQuanTitle">Cho thuê văn phòng quận Hoàn Kiếm</h4>
+          <a class="BuildingQuanLink" href="#">Xem thêm</a>
+        </div>
+
+        <div class="row list-building">
+          <div class="col large-3 small-12 pb-0">
+            <div class="building-item">
+
+              <!-- Hình ảnh sản phẩm -->
+              <div class="thumb">
+                <a href="#" title="Tòa nhà ABC">
+                  <img 
+                    src="path/to/image.jpg" 
+                    alt="Tòa nhà ABC" 
+                    class="img-responsive thumb-blog"
+                  />
+                </a>
+              </div>
+
+              <!-- Nội dung sản phẩm -->
+              <div class="content BuildingItemContent">
+                <h3>
+                  <a class="BuildingItemName" href="#" title="Tòa nhà ABC">
+                    Tòa nhà ABC
+                  </a>
+                </h3>
+
+                <!-- Giá nếu có -->
+                <span class="BuildingItemLocation">Giá: 25 triệu/tháng</span>
+
+                <!-- Nút Quan tâm -->
+                <div class="meta">
+                  <span class="btn-care quan_tam js-btn-care BuildingItemCare" type="button" data-id="1">
+                    <span>
+                      <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                    </span>
+                    Quan tâm
+                  </span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Thêm các sản phẩm khác -->
+        </div> <!-- End list-building -->
+
+        <!-- Thêm các district khác tương tự -->
+
+      </section>
+    </div>
+
+    <!-- End shop container -->
 
   </div>
 </div>
