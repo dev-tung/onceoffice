@@ -1,11 +1,15 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * @package flatsome
- */
 
-global $flatsome_opt;
+
+
+
+<?php
+	/**
+	 * The template for displaying the footer.
+	 *
+	 * @package flatsome
+	 */
+
+	global $flatsome_opt;
 ?>
 
 </main>

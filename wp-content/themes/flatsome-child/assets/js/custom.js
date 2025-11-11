@@ -26,5 +26,3 @@ document.addEventListener('click', function(e) {
     menu.classList.remove('DtmToggleMenu-Active');
   }
 });
-
-alert('Xin chào');

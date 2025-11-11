@@ -79,14 +79,5 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('.DtmAccordion-Header').forEach(header => {
-    header.addEventListener('click', function () {
-      const body = document.getElementById(header.dataset.target);
 
-      // Toggle active class
-      header.classList.toggle('active');
-      body.classList.toggle('active');
-    });
-  });
-});
+
