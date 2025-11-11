@@ -849,3 +849,17 @@ function custom_woocommerce_og_tags() {
         }
     }
 }
+
+
+
+function dtm_enqueue_scripts() {
+  wp_enqueue_script(
+    'dtm-custom',
+    get_stylesheet_directory_uri() . '/assets/js/custom.js',
+    array(), // hoặc array('jquery')
+    null,
+    true // 🔥 load ở footer
+  );
+}
+add_action('wp_enqueue_scripts', 'dtm_enqueue_scripts');
+

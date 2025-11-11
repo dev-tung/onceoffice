@@ -180,13 +180,47 @@
   .DtSubmenu {
     display: none;
   }
+
+  /* Ẩn menu mặc định */
+  .DtmToggleMenu {
+    opacity: 0;
+    display: none;
+    position: fixed; /* fixed để hiển thị trên mọi parent */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+    transition: all 0.3s ease;
+    pointer-events: none; /* không chặn click khi ẩn */
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  /* Khi toggle mở */
+  .DtmToggleMenu-Active {
+    opacity: 1 !important;
+    display: block !important;
+    pointer-events: auto;
+  }
+
+    /* Nút đóng bên trong menu */
+  #DtmCloseMenuBtn {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
   .DtmSubmenu {
     display: grid;
     width: 100%;
     background-color: #f8f9fa;
     border: 1px solid #dee2e6;
     border-radius: 5px;
-    padding: 20px;
+    padding: 40px 20px;
     box-shadow: 0 8px 16px rgba(34, 37, 49, 0.12);
   }
   .DtmSubmenu-Text1 {

@@ -10,6 +10,7 @@ class ComponentController extends BaseController {
     public function __construct() {
         $this->service = new ComponentService();
         add_shortcode('dt_component_submenu', [$this, 'submenu']);
+        add_shortcode('dt_component_submenumobile', [$this, 'submenumobile']);
     }
 
     public function submenu(){
@@ -17,4 +18,8 @@ class ComponentController extends BaseController {
         return $this->render('components/submenu', $data);
     }
     
+    public function submenumobile(){
+        $data = $this->service->submenu();
+        return $this->render('components/submenumobile', $data);
+    }
 }
