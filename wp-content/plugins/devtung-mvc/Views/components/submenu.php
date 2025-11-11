@@ -114,6 +114,7 @@
 
   <!-- Mobile Version -->
   <div class="DtmSubmenu">
+    <a href="#" class="close-fullmenu-mobile">×</a>
     <!-- ===================== -->
     <!-- KHU VỰC: QUẬN / PHƯỜNG -->
     <!-- ===================== -->

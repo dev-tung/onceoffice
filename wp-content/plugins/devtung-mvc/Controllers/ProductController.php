@@ -53,6 +53,7 @@ class ProductController extends BaseController {
     }
 
     public function detail(){
+        
         $productID   = get_the_ID();
         $slideImages = $this->model->slideImages($productID);
 

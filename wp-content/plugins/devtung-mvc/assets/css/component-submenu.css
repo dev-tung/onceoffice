@@ -181,6 +181,7 @@
     display: none;
   }
   .DtmSubmenu {
+    display: grid;
     width: 100%;
     background-color: #f8f9fa;
     border: 1px solid #dee2e6;
@@ -340,3 +341,4 @@
     flex-direction: column;
   }
 }
+

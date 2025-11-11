@@ -1,5 +1,5 @@
 <div class="row content-row">
-  <div class="col large-12 pb-15">
+  <div class="col large-12 pb-15 d-flex">
     <aside>
       <h1>
         <?php echo get_the_title( get_the_ID() ); ?>
@@ -7,6 +7,9 @@
       <p>
         <?php echo get_post_meta( get_the_ID(), '_vi_tri', true ); ?>
       </p>
+      <div class="share-button">
+        <?php ADDTOANY_SHARE_SAVE_KIT()?>
+      </div>
     </aside>
   </div>
 </div>

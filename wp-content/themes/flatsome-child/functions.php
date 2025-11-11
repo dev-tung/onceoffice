@@ -832,25 +832,20 @@ add_action('wp_footer', function(){
 <?php
 });
 
-add_filter('document_title_parts', function($title) {
-    // Xóa site name trong title
-    if (isset($title['site'])) {
-        unset($title['site']);
-    }
-    return $title;
-});
+// Thêm OG tags cho sản phẩm WooCommerce
+add_action('wp_head', 'custom_woocommerce_og_tags');
+function custom_woocommerce_og_tags() {
+    if ( is_product() ) {
+        global $product;
+        if ( $product ) {
+            $title = get_the_title();
+            $desc  = wp_strip_all_tags( $product->get_short_description() );
+            $img   = wp_get_attachment_url( $product->get_image_id() );
 
-add_filter('pre_get_document_title', function($title) {
-    if (is_product()) {
-        global $post;
-        return get_the_title($post);
+            echo '<meta property="og:title" content="'.esc_attr($title).'" />' . "\n";
+            echo '<meta property="og:description" content="'.esc_attr($desc).'" />' . "\n";
+            echo '<meta property="og:image" content="'.esc_url($img).'" />' . "\n";
+            echo '<meta property="og:type" content="product" />' . "\n";
+        }
     }
-    return $title;
-});
-
-add_action('init', function() {
-    if (current_user_can('administrator')) {
-        global $wpdb;
-        $wpdb->query("DELETE FROM {$wpdb->options} WHERE option_name LIKE '_transient_flatsome_%' OR option_name LIKE '_transient_timeout_flatsome_%'");
-    }
-});
+}
