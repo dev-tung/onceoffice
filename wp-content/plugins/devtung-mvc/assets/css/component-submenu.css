@@ -8,17 +8,17 @@
   .DtmSubmenu {
     display: none;
   }
-  #masthead ul.header-nav > li.menu-item > .sub-menu:has(.DtmSubmenu) {
+  #masthead ul.header-nav>li.menu-item>.sub-menu:has(.DtSubmenu) {
     background-color: unset;
     pointer-events: none;
   }
-  #masthead ul.header-nav > li.menu-item:hover > .sub-menu:has(.DtmSubmenu){
+  #masthead ul.header-nav > li.menu-item:hover > .sub-menu:has(.DtSubmenu){
     pointer-events: auto;
   }
   .DtSubmenu {
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr;
-    width: 1100px;
+    grid-template-columns: 5fr 2fr 1fr;
+    width: 1000px;
     margin: 0 auto;
     padding: 30px;
     background-color: #f8f9fa;
@@ -30,7 +30,7 @@
   .DtSubmenu-Text1 {
     margin: 0;
     line-height:1.5;
-    font-size: 18px;
+    font-size: 16px;
     color: #000000;
     font-weight: bold;
     padding: 0;
@@ -38,21 +38,21 @@
   .DtSubmenu-Text2 {
     margin: 0;
     line-height:1.5;
-    font-size: 16px;
+    font-size: 14px;
     color: #1b1b1b;
     padding: 10px 0;
   }
   .DtSubmenu-Text3 {
     margin: 0;
     line-height:1.5;
-    font-size: 14px;
+    font-size: 12px;
     color: #444444;
     padding: 10px 0;
   }
   .DtSubmenu-Text4 {
     margin: 0;
     line-height:1.5;
-    font-size: 12px;
+    font-size: 10px;
     color: #858585;
     padding: 10px 0;
   }
@@ -102,7 +102,11 @@
     text-decoration: none;
   }
   .DtSubmenu .DtSubmenuLink:hover {
-    color: #756c01;
+    color: #009aab;
+  }
+
+  .SectionBuildingTag:hover{
+    color: #009aab;
   }
   .DtSubmenu .DtToggleLayout {
     display: grid;
@@ -146,7 +150,7 @@
     text-decoration: none;
   }
   .DtSubmenu .DtToggleContent-Link:hover {
-    color: #756c01;
+    color: #009aab;
   }
   .DtSubmenu .DtToggleButton-Active {
     color: #009aab;

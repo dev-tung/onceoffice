@@ -974,3 +974,10 @@
   border-radius: 4px;
 }
 
+.building-item{
+    border-radius: 12px;
+}
+
+.building-item .thumb img{
+    border-radius: 12px 12px 0 0;
+}
